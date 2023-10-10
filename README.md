@@ -23,13 +23,13 @@ The island's stabilization system is failing and needs increased reliability and
 - Describe AWS Regions and Availability Zones.
 - Deploy Amazon EC2 instances into multiple Availability Zones.
 
-### 3. Serverless Foundations 	
+### 3. Serverless Foundations :heavy_check_mark:
 Help the Amusement Park IT Department to run code without provisioning a server. 	
 - Describe the principles of serverless computing
 - Describe AWS Lambda and detail its uses and benefits
 - Create and deploy an AWS Lambda function
 
-### 4. Computing Solutions 	
+### 4. Computing Solutions :heavy_check_mark:
 The school server that runs the scheduling solution needs more memory. Assist with vertically scaling their Amazon EC2 instance. 	
 - Describe Amazon EC2 instance families and instance types.
 - Describe horizontal and vertical scaling.
