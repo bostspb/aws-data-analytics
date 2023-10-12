@@ -3,7 +3,7 @@
 > https://explore.skillbuilder.aws/learn/course/15601/aws-cloud-quest-data-analytics <br>
 
 `AWS` `S3` `EC2` `Lambda` `RDS` `IAM` `DynamoDB` `Athena` `Glue` `Kinesis` `OpenSearch` `EMR`
-`Apache Spark` `Lake Formation`
+`Apache Spark` `Lake Formation` `Cloud9`
 
 As the city’s AWS Data Analytics specialist, you will gain hands-on experience with scalable data lakes, 
 data warehousing, real-time data ingestion, big data analytics, log analytics, streaming analytics, data storage, 
@@ -82,6 +82,8 @@ Help Felipe, the Island Gamers CTO to improve the performance of the top players
 - Comprehend performance differences between Amazon DynamoDB scan and query
 - Configure Amazon DynamoDB global secondary index to improve search performance
 - Write Python code to query or scan Amazon DynamoDB tables using global secondary indexes
+
+[Plan](10_Design_NoSQL_Databases/10_Design_NoSQL_Databases.jpg), [Tests](10_Design_NoSQL_Databases/dynamoDB-tests)
 
 ### 11. Data Lakes 	 
 An e-commerce store has a high amount of cart abandonment on a daily basis, and they end up deleting these records 
