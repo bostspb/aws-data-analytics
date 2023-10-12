@@ -35,21 +35,21 @@ The school server that runs the scheduling solution needs more memory. Assist wi
 - Describe horizontal and vertical scaling.
 - Recognize options for connecting to Amazon EC2 instances.
 
-### 5. Networking Concepts 	
+### 5. Networking Concepts :heavy_check_mark:
 Help the bank setup a secure networking environment which allows communication between resources and the internet. 	
 - Define key features of VPCs, subnets, internet gateways and route tables.
 - Describe the benefits of using Amazon VPCs.
 - State the basics of CIDR block notation and IP addressing.
 - Explain how VPC traffic is routed and secured using gateways, network access control lists, and security groups.
 
-### 6. Databases in Practice 	
+### 6. Databases in Practice :heavy_check_mark:
 Improve the insurance company's relational database operations, performance, and availability. 	
 - Review the features, benefits and database types available with Amazon RDS.
 - Describe vertical and horizontal scaling on Amazon RDS.
 - Use Amazon RDS read replicas to increase database performance.
 - Implement multi-AZ deployments of Amazon RDS to increase availability.
 
-### 7. Core Security Concepts 	
+### 7. Core Security Concepts :heavy_check_mark:
 Help improve security at the city's stock exchange by ensuring that support engineers can only perform authorized actions. 	
 - Describe the creation process and differences between AWS IAM users, roles, and groups.
 - Review the structure and components of AWS IAM Policies.
@@ -62,13 +62,15 @@ Help the island's streaming entertainment service implement a NoSQL database to 
 - Describe the features and benefits of Amazon DynamoDB. 
 - Summarize the different uses of common purpose-built databases.
 
-### 9. Data Ingestion Methods 	
+### 9. Data Ingestion Methods :heavy_check_mark: 	
 Help the package delivery company speed up data ingestion and transformation. 	
 - Configure data pre-processing using AWS Lambda. 
 - Create an Amazon Kinesis Data Analytics application. 
 - Create an Amazon Kinesis Data Firehose delivery stream. 
 - Send real-time analytics to an Amazon DynamoDB table. 
 - Configure real-time analytics of data in your application.
+
+[Practice & DIY](09_Data_Ingestion_Methods/readme.md)
 
 ### 10. Design NoSQL Databases 	
 Help Felipe, the Island Gamers CTO to improve the performance of the top players scoreboard. 	
