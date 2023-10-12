@@ -42,6 +42,8 @@ Help the bank setup a secure networking environment which allows communication b
 - State the basics of CIDR block notation and IP addressing.
 - Explain how VPC traffic is routed and secured using gateways, network access control lists, and security groups.
 
+[Plan](05_Networking_Concepts/05_Networking_Concepts.jpg)
+
 ### 6. Databases in Practice :heavy_check_mark:
 Improve the insurance company's relational database operations, performance, and availability. 	
 - Review the features, benefits and database types available with Amazon RDS.
@@ -55,12 +57,14 @@ Help improve security at the city's stock exchange by ensuring that support engi
 - Review the structure and components of AWS IAM Policies.
 - Summarize the AWS Shared Responsibility Model and compliance programs.
 
-### 8. First NoSQL Database 	
+### 8. First NoSQL Database :heavy_check_mark:
 Help the island's streaming entertainment service implement a NoSQL database to develop new features. 	
 - Set Up a NoSQL database with Amazon DynamoDB. 
 - Interact with the elements and attributes of an Amazon DynamoDB database. 
 - Describe the features and benefits of Amazon DynamoDB. 
 - Summarize the different uses of common purpose-built databases.
+
+[Plan](08_First_NoSQL_Database/08_First_NoSQL_Database.jpg)
 
 ### 9. Data Ingestion Methods :heavy_check_mark: 	
 Help the package delivery company speed up data ingestion and transformation. 	
@@ -70,7 +74,7 @@ Help the package delivery company speed up data ingestion and transformation.
 - Send real-time analytics to an Amazon DynamoDB table. 
 - Configure real-time analytics of data in your application.
 
-[Practice & DIY](09_Data_Ingestion_Methods/readme.md)
+ [Plan](09_Data_Ingestion_Methods/09_Data_Ingestion_Methods.jpg), [Practice & DIY](09_Data_Ingestion_Methods/readme.md)
 
 ### 10. Design NoSQL Databases 	
 Help Felipe, the Island Gamers CTO to improve the performance of the top players scoreboard. 	

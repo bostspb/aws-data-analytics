@@ -1,7 +1,7 @@
 # Lab 9. Data Ingestion Methods
 > Help the package delivery company speed up data ingestion and transformation.
 
-![Data Ingestion Methods. Plan](Data Ingestion Methods.jpg)
+![Data Ingestion Methods. Plan](09_Data_Ingestion_Methods.jpg)
 
 ## Practice
 1. Kinesis
