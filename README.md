@@ -76,7 +76,7 @@ Help the package delivery company speed up data ingestion and transformation.
 
  [Plan](09_Data_Ingestion_Methods/09_Data_Ingestion_Methods.jpg), [Practice & DIY](09_Data_Ingestion_Methods/readme.md)
 
-### 10. Design NoSQL Databases 	
+### 10. Design NoSQL Databases 	:heavy_check_mark: 
 Help Felipe, the Island Gamers CTO to improve the performance of the top players scoreboard. 	
 - Understand how to design an efficient Amazon DynamoDB table based on access patterns
 - Comprehend performance differences between Amazon DynamoDB scan and query
@@ -85,7 +85,7 @@ Help Felipe, the Island Gamers CTO to improve the performance of the top players
 
 [Plan](10_Design_NoSQL_Databases/10_Design_NoSQL_Databases.jpg), [Tests](10_Design_NoSQL_Databases/dynamoDB-tests)
 
-### 11. Data Lakes 	 
+### 11. Data Lakes  :heavy_check_mark:
 An e-commerce store has a high amount of cart abandonment on a daily basis, and they end up deleting these records 
 from their database to save storage space. The IT manager has asked us to find a cost-effective storage solution to 
 store these records and allow the e-commerce store to perform analytic processing directly on this storage solution. 
