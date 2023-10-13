@@ -94,6 +94,8 @@ store these records and allow the e-commerce store to perform analytic processin
 - Explain how to use Amazon S3 as the storage layer of your data lake. 
 - Describe the value of data lakes. 
 
+[Plan](11_Data_Lakes/11_Data_Lakes.jpg), [Practice & DIY](11_Data_Lakes/readme.md)
+
 ### 12. Querying the Data Lake
 A financial institution has recently implemented a data lake to ingest transactions from all across the city. 
 A credit card issuer has begun to send logs of transactions which are being stored in Amazon S3. 
