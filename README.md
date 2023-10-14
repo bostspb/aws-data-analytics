@@ -106,6 +106,8 @@ would like a fast and scalable solution to achieve this.
 - Define how to save the results of Amazon Athena queries to Amazon S3. 
 - Demonstrate how AWS Lambda can be used to generate test data for testing.
 
+[Plan](12_Querying_the_Data_Lake/12_Querying_the_Data_Lake.jpg), [Practice & DIY](12_Querying_the_Data_Lake/readme.md)
+
 ### 13. Federated Queries 
 City hall has developed a ticketing system to manage citizen requests. Tickets include cases such as notifications 
 of street damage, burned out streetlights, and even noisy establishments. Now, to plan better, city hall wants to 
