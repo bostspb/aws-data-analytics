@@ -96,7 +96,7 @@ store these records and allow the e-commerce store to perform analytic processin
 
 [Plan](11_Data_Lakes/11_Data_Lakes.jpg), [Practice & DIY](11_Data_Lakes/readme.md)
 
-### 12. Querying the Data Lake
+### 12. Querying the Data Lake  :heavy_check_mark:
 A financial institution has recently implemented a data lake to ingest transactions from all across the city. 
 A credit card issuer has begun to send logs of transactions which are being stored in Amazon S3. 
 The financial institution's fraud department would like to start analyzing the logs for suspicious transactions and 
@@ -108,33 +108,44 @@ would like a fast and scalable solution to achieve this.
 
 [Plan](12_Querying_the_Data_Lake/12_Querying_the_Data_Lake.jpg), [Practice & DIY](12_Querying_the_Data_Lake/readme.md)
 
-### 13. Federated Queries 
+### 13. Federated Queries  :heavy_check_mark: 
 City hall has developed a ticketing system to manage citizen requests. Tickets include cases such as notifications 
 of street damage, burned out streetlights, and even noisy establishments. Now, to plan better, city hall wants to 
 use SQL to obtain more insights from these requests, such as the most common problem areas.
 - Explain how to use an AWS Glue crawler to expose Amazon DynamoDB tables to a data lake. 
 - Identify how to use Amazon Athena Federated Query to directly query DynamoDB by using a scalable SQL engine.
 
-### 14. Cloud Data Warehouse 	
+[Plan](13_Federated_Queries/13_Federated_Queries.jpg), [Practice & DIY](13_Federated_Queries/readme.md)
+
+### 14. Populating Data Catalog  :heavy_check_mark: 
+Help to better organize data lake. 
+- Create a database in the AWS Glue Data Cataloge.
+- Create and run AWS Glue crawler in the Data Catalog.
+- Use Amazon Athena to query data in the table.
+- Rerun the crawler to update the Data Catalog.
+
+[Plan](14_Populating_Data_Catalog/14_Populating_Data_Catalog.jpg), [Practice & DIY](14_Populating_Data_Catalog/readme.md)
+
+### 15. Cloud Data Warehouse 	
 A game studio captures player data from its most successful games. The studio wants to analyze the data to 
 increase revenue from in-game purchases. 	
 - Explain how to Implement a data warehouse in Amazon Redshift. 
 - Describe how to use an AWS Glue built-in transformation to flatten semi-structured data containing nested data and array structures.
 
-### 15. Streaming Ingestion
+### 16. Streaming Ingestion
 A gas station network wants to optimize fuel distribution through the use of analytics. The network would like to 
 send metrics, such as the level of gas stations' fuel tanks, in near real time so that they can automatically ship 
 trucks with additional fuel as the tanks get close to being empty. 	
 - Use Amazon Kinesis Data Firehose to ingest data directly to your data lake. 
 - Call Amazon Athena to query data in near real time using a Python SDK. 
 
-### 16. Documents Indexing and Search 	 
+### 17. Documents Indexing and Search 	 
 The bank would like to increase the number of online transactions customers can review from 6 months to five years. 
 In addition, the online bank statements must support textual searches for all fields in the statement. 	 
 - Define how to use AWS OpenSearch to index and search documents Explain how to use AWS Glue Jobs to ingest data 
 into Amazon OpenSearch Service Explain how to consume data from OpenSearch Service using a restful API
 
-### 17. Distributed Large-Scale Data Processing 	
+### 18. Distributed Large-Scale Data Processing 	
 Our city taxi service collects and stores large amounts of data. We’d like to use that data to improve our service 
 and be more efficient. We want to use Amazon EMR, with Apache Spark, to process the data stored in Amazon S3. 
 After the data is processed, our analysts can use Amazon Athena to query it with the help of AWS Glue. 	
@@ -143,7 +154,7 @@ After the data is processed, our analysts can use Amazon Athena to query it with
 - Define how to query the AWS Glue table using Amazon Athena. 
 - Describe how to write data to an AWS Glue table using Apache Spark.
 
-### 18. Securing the Data Lake
+### 19. Securing the Data Lake
 A bank with several departments is using a data lake powered by Amazon S3. They need your help implementing 
 security rules that limit access to sensitive data within its table’s metadata catalog. 
 - Define how to query data as different IAM users to test the restrictions. 
@@ -151,7 +162,7 @@ security rules that limit access to sensitive data within its table’s metadata
 - Describe how, using Lake Formation, to restrict access to sensitive data for certain IAM users. 
 - Define how to use AWS Lake Formation to configure access to the data for AWS IAM users.
 
-### 19. Real Time Data Processing
+### 20. Real Time Data Processing
 The city administration wants to improve the efficiency of its wind farm. When a wind generator in the wind farm 
 fails, it takes a long time to identify the fault, send a maintenance team, and carry out the repair.
 The administration wants to anticipate possible defects in the wind turbines in order to provide preventive maintenance. 	
