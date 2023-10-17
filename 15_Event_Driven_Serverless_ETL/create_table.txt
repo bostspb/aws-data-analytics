@@ -1,0 +1,8 @@
+CREATE TABLE toll_table (
+  transaction_id bigint,
+  transaction_date character varying NOT null,
+  toll_booth character varying NOT null,
+  vehicle_make character varying NOT null,
+  vehicle_category character varying NOT null,
+  transaction_amount REAL
+);

@@ -126,26 +126,33 @@ Help to better organize data lake.
 
 [Plan](14_Populating_Data_Catalog/14_Populating_Data_Catalog.jpg), [Practice & DIY](14_Populating_Data_Catalog/readme.md)
 
-### 15. Cloud Data Warehouse 	
+### 15. Event-Driven Serverless ETL  :heavy_check_mark: 
+- Create an AWS Glue connection to Amazon Redshift.
+- Use AWS Glue Studio to create ETL job.
+- Query the data though Amazon Redshift query editor.
+
+[Plan](15_Event_Driven_Serverless_ETL/15_Event_Driven_Serverless_ETL.jpg), [Practice & DIY](15_Event_Driven_Serverless_ETL/readme.md)
+
+### 16. Cloud Data Warehouse 	
 A game studio captures player data from its most successful games. The studio wants to analyze the data to 
 increase revenue from in-game purchases. 	
 - Explain how to Implement a data warehouse in Amazon Redshift. 
 - Describe how to use an AWS Glue built-in transformation to flatten semi-structured data containing nested data and array structures.
 
-### 16. Streaming Ingestion
+### 17 Streaming Ingestion
 A gas station network wants to optimize fuel distribution through the use of analytics. The network would like to 
 send metrics, such as the level of gas stations' fuel tanks, in near real time so that they can automatically ship 
 trucks with additional fuel as the tanks get close to being empty. 	
 - Use Amazon Kinesis Data Firehose to ingest data directly to your data lake. 
 - Call Amazon Athena to query data in near real time using a Python SDK. 
 
-### 17. Documents Indexing and Search 	 
+### 18. Documents Indexing and Search 	 
 The bank would like to increase the number of online transactions customers can review from 6 months to five years. 
 In addition, the online bank statements must support textual searches for all fields in the statement. 	 
 - Define how to use AWS OpenSearch to index and search documents Explain how to use AWS Glue Jobs to ingest data 
 into Amazon OpenSearch Service Explain how to consume data from OpenSearch Service using a restful API
 
-### 18. Distributed Large-Scale Data Processing 	
+### 19. Distributed Large-Scale Data Processing 	
 Our city taxi service collects and stores large amounts of data. We’d like to use that data to improve our service 
 and be more efficient. We want to use Amazon EMR, with Apache Spark, to process the data stored in Amazon S3. 
 After the data is processed, our analysts can use Amazon Athena to query it with the help of AWS Glue. 	
@@ -154,7 +161,7 @@ After the data is processed, our analysts can use Amazon Athena to query it with
 - Define how to query the AWS Glue table using Amazon Athena. 
 - Describe how to write data to an AWS Glue table using Apache Spark.
 
-### 19. Securing the Data Lake
+### 20. Securing the Data Lake
 A bank with several departments is using a data lake powered by Amazon S3. They need your help implementing 
 security rules that limit access to sensitive data within its table’s metadata catalog. 
 - Define how to query data as different IAM users to test the restrictions. 
@@ -162,7 +169,7 @@ security rules that limit access to sensitive data within its table’s metadata
 - Describe how, using Lake Formation, to restrict access to sensitive data for certain IAM users. 
 - Define how to use AWS Lake Formation to configure access to the data for AWS IAM users.
 
-### 20. Real Time Data Processing
+### 21. Real Time Data Processing
 The city administration wants to improve the efficiency of its wind farm. When a wind generator in the wind farm 
 fails, it takes a long time to identify the fault, send a maintenance team, and carry out the repair.
 The administration wants to anticipate possible defects in the wind turbines in order to provide preventive maintenance. 	
