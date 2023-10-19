@@ -209,14 +209,18 @@ information about the next day's deliveries, and it wants the process to be auto
 [Plan](17_Event_Driven_ETL_Automation/17_Event_Driven_ETL_Automation.jpg), [Practice & DIY](17_Event_Driven_ETL_Automation/readme.md)
 
 
-### 17. Cloud Data Warehouse 	
+### 18. Cloud Data Warehouse  :heavy_check_mark: 
+`AWS Glue` `Amazon Redshift` `Amazon Athena` `Amazon Kinesis`
+
 A game studio captures player data from its most successful games. The studio wants to analyze the data to 
 increase revenue from in-game purchases. 	
 - Explain how to Implement a data warehouse in Amazon Redshift. 
 - Describe how to use an AWS Glue built-in transformation to flatten semi-structured data containing nested data and array structures.
 
+[Plan](18_Cloud_Data_Warehouse/18_Cloud_Data_Warehouse.jpg), [Practice & DIY](18_Cloud_Data_Warehouse/readme.md)
 
-### 18 Streaming Ingestion
+
+### 19. Streaming Ingestion
 A gas station network wants to optimize fuel distribution through the use of analytics. The network would like to 
 send metrics, such as the level of gas stations' fuel tanks, in near real time so that they can automatically ship 
 trucks with additional fuel as the tanks get close to being empty. 	
@@ -224,14 +228,14 @@ trucks with additional fuel as the tanks get close to being empty.
 - Call Amazon Athena to query data in near real time using a Python SDK. 
 
 
-### 19. Documents Indexing and Search 	 
+### 20. Documents Indexing and Search 	 
 The bank would like to increase the number of online transactions customers can review from 6 months to five years. 
 In addition, the online bank statements must support textual searches for all fields in the statement. 	 
 - Define how to use AWS OpenSearch to index and search documents Explain how to use AWS Glue Jobs to ingest data 
 into Amazon OpenSearch Service Explain how to consume data from OpenSearch Service using a restful API
 
 
-### 20. Distributed Large-Scale Data Processing 	
+### 21. Distributed Large-Scale Data Processing 	
 Our city taxi service collects and stores large amounts of data. We’d like to use that data to improve our service 
 and be more efficient. We want to use Amazon EMR, with Apache Spark, to process the data stored in Amazon S3. 
 After the data is processed, our analysts can use Amazon Athena to query it with the help of AWS Glue. 	
@@ -241,7 +245,7 @@ After the data is processed, our analysts can use Amazon Athena to query it with
 - Describe how to write data to an AWS Glue table using Apache Spark.
 
 
-### 21. Real Time Data Processing
+### 22. Real Time Data Processing
 The city administration wants to improve the efficiency of its wind farm. When a wind generator in the wind farm 
 fails, it takes a long time to identify the fault, send a maintenance team, and carry out the repair.
 The administration wants to anticipate possible defects in the wind turbines in order to provide preventive maintenance. 	
