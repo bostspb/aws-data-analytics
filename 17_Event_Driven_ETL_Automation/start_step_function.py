@@ -1,0 +1,31 @@
+import json
+import urllib.parse
+import boto3
+import os
+
+s3 = boto3.client('s3')
+stf = boto3.client('stepfunctions')
+
+state_machine = os.environ['STATE_MACHINE_ARN']
+
+
+def lambda_handler(event, context):
+    # print("Received event: " + json.dumps(event, indent=2))
+
+    # Get the object from the event and show its content type
+    bucket = event['Records'][0]['s3']['bucket']['name']
+    key = urllib.parse.unquote_plus(event['Records'][0]['s3']['object']['key'], encoding='utf-8')
+    try:
+        s3_response = s3.get_object(Bucket=bucket, Key=key)
+        stf_response = stf.start_execution(
+            stateMachineArn=state_machine
+        )
+        print('Processing new raw data file {}/{}'.format(bucket, key))
+        print('Started state machine {} '.format(stf_response['executionArn']))
+
+    except Exception as e:
+        print(e)
+        print(
+            'Error getting object {} from bucket {}. Make sure they exist and your bucket is in the same region as this function.'.format(
+                key, bucket))
+        raise e
