@@ -220,19 +220,23 @@ increase revenue from in-game purchases.
 [Plan](18_Cloud_Data_Warehouse/18_Cloud_Data_Warehouse.jpg), [Practice & DIY](18_Cloud_Data_Warehouse/readme.md)
 
 
-### 19. Streaming Ingestion
+### 19. Documents Indexing and Search  :heavy_check_mark: 
+`AWS Glue` `Amazon OpenSearch Service` `Amazon S3`
+
+The bank would like to increase the number of online transactions customers can review from 6 months to five years. 
+In addition, the online bank statements must support textual searches for all fields in the statement. 	 
+- Define how to use AWS OpenSearch to index and search documents Explain how to use AWS Glue Jobs to ingest data 
+into Amazon OpenSearch Service Explain how to consume data from OpenSearch Service using a restful API
+
+[Plan](19_Documents_Indexing_and_Search/19_Documents_Indexing_and_Search.jpg), [Practice & DIY](19_Documents_Indexing_and_Search/readme.md)
+
+
+### 20. Streaming Ingestion
 A gas station network wants to optimize fuel distribution through the use of analytics. The network would like to 
 send metrics, such as the level of gas stations' fuel tanks, in near real time so that they can automatically ship 
 trucks with additional fuel as the tanks get close to being empty. 	
 - Use Amazon Kinesis Data Firehose to ingest data directly to your data lake. 
 - Call Amazon Athena to query data in near real time using a Python SDK. 
-
-
-### 20. Documents Indexing and Search 	 
-The bank would like to increase the number of online transactions customers can review from 6 months to five years. 
-In addition, the online bank statements must support textual searches for all fields in the statement. 	 
-- Define how to use AWS OpenSearch to index and search documents Explain how to use AWS Glue Jobs to ingest data 
-into Amazon OpenSearch Service Explain how to consume data from OpenSearch Service using a restful API
 
 
 ### 21. Distributed Large-Scale Data Processing 	
