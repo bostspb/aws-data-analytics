@@ -231,22 +231,24 @@ into Amazon OpenSearch Service Explain how to consume data from OpenSearch Servi
 [Plan](19_Documents_Indexing_and_Search/19_Documents_Indexing_and_Search.jpg), [Practice & DIY](19_Documents_Indexing_and_Search/readme.md)
 
 
+### 20. Daily Batch Extraction
+`Amazon RDS` `AWS Glue` `Amazon S3` `Amazon Athena` `AWS Secrets Manager`
+
+- Determine how to create JDBC connections in AWS Glue that will connect databases to ingest, transform 
+  and extract data.
+- Determine how to use AWS Glue Studio to visually create Spark scripts to extract, transform, and ingest data 
+  from a variety of different sources and destinations.
+- Demonstrate how to use Amazon Athena to run on-demand queries on the data extracted by AWS Glue. 
+
+[Plan](20_Daily_Batch_Extraction/20_Daily_Batch_Extraction.jpg), [Practice & DIY](20_Daily_Batch_Extraction/readme.md)
+
+
 ### 20. Streaming Ingestion
 A gas station network wants to optimize fuel distribution through the use of analytics. The network would like to 
 send metrics, such as the level of gas stations' fuel tanks, in near real time so that they can automatically ship 
 trucks with additional fuel as the tanks get close to being empty. 	
 - Use Amazon Kinesis Data Firehose to ingest data directly to your data lake. 
 - Call Amazon Athena to query data in near real time using a Python SDK. 
-
-
-### 21. Distributed Large-Scale Data Processing 	
-Our city taxi service collects and stores large amounts of data. We’d like to use that data to improve our service 
-and be more efficient. We want to use Amazon EMR, with Apache Spark, to process the data stored in Amazon S3. 
-After the data is processed, our analysts can use Amazon Athena to query it with the help of AWS Glue. 	
-- Explain how to use a Jupyter notebook to process a large dataset. 
-- Demonstrate how to create an Amazon EMR cluster. 
-- Define how to query the AWS Glue table using Amazon Athena. 
-- Describe how to write data to an AWS Glue table using Apache Spark.
 
 
 ### 22. Real Time Data Processing
