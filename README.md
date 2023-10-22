@@ -243,12 +243,16 @@ into Amazon OpenSearch Service Explain how to consume data from OpenSearch Servi
 [Plan](20_Daily_Batch_Extraction/20_Daily_Batch_Extraction.jpg), [Practice & DIY](20_Daily_Batch_Extraction/readme.md)
 
 
-### 20. Streaming Ingestion
+### 21. Streaming Ingestion
+`Amazon SQS` `AWS Lambda` `Amazon Kinesis` `Amazon S3` `Amazon Athena`
+
 A gas station network wants to optimize fuel distribution through the use of analytics. The network would like to 
 send metrics, such as the level of gas stations' fuel tanks, in near real time so that they can automatically ship 
 trucks with additional fuel as the tanks get close to being empty. 	
 - Use Amazon Kinesis Data Firehose to ingest data directly to your data lake. 
 - Call Amazon Athena to query data in near real time using a Python SDK. 
+
+- [Plan](21_Streaming_Ingestion/21_Streaming_Ingestion.jpg), [Practice & DIY](21_Streaming_Ingestion/readme.md)
 
 
 ### 22. Real Time Data Processing
