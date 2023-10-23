@@ -1,6 +1,7 @@
 # AWS Cloud Quest: Data Analytics
 > ID: E-0JMPNM <br>
 > https://explore.skillbuilder.aws/learn/course/15601/aws-cloud-quest-data-analytics <br>
+> Certificate https://www.credly.com/badges/f7405252-e9a3-42fc-ac3e-7676727fe639/public_url
 
 `AWS` `S3` `EC2` `Lambda` `RDS` `IAM` `VPC` `DynamoDB` `Athena` `Glue` `Kinesis` `OpenSearch` `EMR`
 `Apache Spark` `Lake Formation` `Cloud9` `CloudFormation`
@@ -252,13 +253,17 @@ trucks with additional fuel as the tanks get close to being empty.
 - Use Amazon Kinesis Data Firehose to ingest data directly to your data lake. 
 - Call Amazon Athena to query data in near real time using a Python SDK. 
 
-- [Plan](21_Streaming_Ingestion/21_Streaming_Ingestion.jpg), [Practice & DIY](21_Streaming_Ingestion/readme.md)
+[Plan](21_Streaming_Ingestion/21_Streaming_Ingestion.jpg), [Practice & DIY](21_Streaming_Ingestion/readme.md)
 
 
 ### 22. Real Time Data Processing
+`Amazon Kinesis` `AWS Lambda` `Amazon DynamoDB` `Amazon SNS` `Amazon S3`
+
 The city administration wants to improve the efficiency of its wind farm. When a wind generator in the wind farm 
 fails, it takes a long time to identify the fault, send a maintenance team, and carry out the repair.
 The administration wants to anticipate possible defects in the wind turbines in order to provide preventive maintenance. 	
 - Explain how to create Amazon Kinesis Data Analytics application code using SQL to process incoming streaming data. 
 - Explain how to use Amazon Kinesis Data Analytics to write application output records to a configured destination. 
 - Define how to deploy Amazon Kinesis Data Streams to ingest data from streaming data sources. 
+
+[Plan](22_Real_Time_Data_Processing/22_Real_Time_Data_Processing.jpg), [Practice & DIY](22_Real_Time_Data_Processing/readme.md)
