@@ -232,7 +232,7 @@ into Amazon OpenSearch Service Explain how to consume data from OpenSearch Servi
 [Plan](19_Documents_Indexing_and_Search/19_Documents_Indexing_and_Search.jpg), [Practice & DIY](19_Documents_Indexing_and_Search/readme.md)
 
 
-### 20. Daily Batch Extraction
+### 20. Daily Batch Extraction  :heavy_check_mark:
 `Amazon RDS` `AWS Glue` `Amazon S3` `Amazon Athena` `AWS Secrets Manager`
 
 - Determine how to create JDBC connections in AWS Glue that will connect databases to ingest, transform 
@@ -244,7 +244,7 @@ into Amazon OpenSearch Service Explain how to consume data from OpenSearch Servi
 [Plan](20_Daily_Batch_Extraction/20_Daily_Batch_Extraction.jpg), [Practice & DIY](20_Daily_Batch_Extraction/readme.md)
 
 
-### 21. Streaming Ingestion
+### 21. Streaming Ingestion  :heavy_check_mark:
 `Amazon SQS` `AWS Lambda` `Amazon Kinesis` `Amazon S3` `Amazon Athena`
 
 A gas station network wants to optimize fuel distribution through the use of analytics. The network would like to 
@@ -256,7 +256,7 @@ trucks with additional fuel as the tanks get close to being empty.
 [Plan](21_Streaming_Ingestion/21_Streaming_Ingestion.jpg), [Practice & DIY](21_Streaming_Ingestion/readme.md)
 
 
-### 22. Real Time Data Processing
+### 22. Real Time Data Processing  :heavy_check_mark:
 `Amazon Kinesis` `AWS Lambda` `Amazon DynamoDB` `Amazon SNS` `Amazon S3`
 
 The city administration wants to improve the efficiency of its wind farm. When a wind generator in the wind farm 
